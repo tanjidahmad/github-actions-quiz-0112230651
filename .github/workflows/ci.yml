@@ -20,3 +20,15 @@ jobs:
 
       - name: Run tests
         run: python -m pytest test_grade.py -v
+        
+      - name: Install pytest
+        run: pip install pytest
+
+      - name: Show Python version
+        run: python --version
+
+      - name: Show installed packages
+        run: pip list
+
+      - name: Run tests
+        run: python -m pytest test_grade.py -v
