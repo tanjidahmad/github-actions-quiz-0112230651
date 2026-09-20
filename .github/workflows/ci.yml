@@ -18,12 +18,6 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
-      - name: Run tests
-        run: python -m pytest test_grade.py -v
-        
-      - name: Install pytest
-        run: pip install pytest
-
       - name: Show Python version
         run: python --version
 
@@ -32,3 +26,4 @@ jobs:
 
       - name: Run tests
         run: python -m pytest test_grade.py -v
+        
